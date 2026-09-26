@@ -1,6 +1,6 @@
 <div align="center">
 
-# TeethML — Web Platform (`mlui`)
+# TeethML — Web Platform (`TeethML-UI`)
 
 **Clinical Dental Radiograph AI Inference, Interactive Multi-Layer Contour Editor & Annotation Workspace**
 
@@ -45,7 +45,7 @@
 
 ## 🔬 Overview
 
-**TeethML Web Platform (`mlui`)** brings deep-learning dental diagnostics into a responsive, secure web environment. Built with **Next.js 15 App Router**, **MongoDB**, and **Tailwind CSS**, it serves as the central clinical workstation for dental clinicians, radiologists, and AI researchers.
+**TeethML Web Platform (`TeethML-UI`)** brings deep-learning dental diagnostics into a responsive, secure web environment. Built with **Next.js 15 App Router**, **MongoDB**, and **Tailwind CSS**, it serves as the central clinical workstation for dental clinicians, radiologists, and AI researchers.
 
 Clinicians can upload high-resolution panoramic radiographs (OPGs), trigger multi-stage Python ML inference pipelines (teeth segmentation, jawline boundaries, anatomical keypoint detection), inspect color-coded vector contours, and fine-tune polygon annotations using interactive CAD tools in real time.
 
@@ -158,7 +158,7 @@ graph TB
 ## 📁 Project Directory Structure
 
 ```text
-mlui/
+TeethML-UI/
 ├── docker/
 │   └── mongo-init.js              # Initial MongoDB database setup
 ├── public/                        # Static brand assets and favicons
@@ -222,8 +222,8 @@ mlui/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/LoNE-W0LvES/mlui-src.git
-   cd mlui-src
+   git clone https://github.com/LoNE-W0LvES/TeethML-UI-src.git
+   cd TeethML-UI-src
    ```
 
 2. **Configure environment:**
